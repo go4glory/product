@@ -389,6 +389,7 @@ add_filter('baby_nf_filter_origin_list', 'baby_nf_filter_origin_list',10,3);
 			'muslim'=>'muslim',
 			'Muslim'=>'Muslim',
 			'hinduism'=>'Hinduism',
+			'Hinduism'=>'Hinduism',
 			'christians'=>'Christians',
 			'buddhist'=>'Buddhist',
 			'other'=>'Other',
