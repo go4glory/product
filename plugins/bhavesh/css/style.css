@@ -61,7 +61,7 @@ only screen and (max-width: 760px),
 
 }*/
 
-.myButton {
+/*.myButton {
 	-moz-box-shadow: 1px 11px 30px -6px #3e7327;
 	-webkit-box-shadow: 1px 11px 30px -6px #3e7327;
 	box-shadow: 1px 11px 30px -6px #3e7327;
@@ -100,4 +100,40 @@ only screen and (max-width: 760px),
 .myButton:active {
 	position:relative;
 	top:1px;
+}*/
+
+.character-codes {
+    color: #444444;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-size: 14px;
 }
+.character-codes dl {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px !important;
+    width: 50px;
+    background: #fbfaf9;
+    box-shadow: 0px 0px 8px #aaaaaa;
+    border-radius: 5px;
+}
+.character-codes dt {
+    border-radius: 5px 5px 0px 0px;    
+}
+.character-codes dt {
+    min-height: 10px;
+    font-size: 27px;
+    line-height: 10px !important;
+    text-align: center;
+    background: #fbfaf9;
+    padding: 10px 0;
+    /*font-weight: 700;*/
+    font-style: normal;
+    background-color: #3b78e7;
+    color: #fff;
+}
+.character-codes dl:hover {
+    box-shadow: 0px 0px 14px #444444;
+}
+.character-codes dl
+/*********Header Menu START**********/
+/*********Header Menu END**********/

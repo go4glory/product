@@ -386,7 +386,8 @@ add_filter('baby_nf_filter_origin_list', 'baby_nf_filter_origin_list',10,3);
 	function baby_nf_filter_religious_list() {
 		$baby_nf_religious_list = array(
 			''=>'Select Religion',
-			'islam'=>'Islam',
+			'muslim'=>'muslim',
+			'Muslim'=>'Muslim',
 			'hinduism'=>'Hinduism',
 			'christians'=>'Christians',
 			'buddhist'=>'Buddhist',
