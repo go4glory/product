@@ -43,7 +43,9 @@
 			<button class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></button>
 			<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
 			<?php 
-			if(is_page('11699')){ //Baby Name template
+			//$pageIdsArr = array('11699','11716','11717','11718','11719','11720','11721','11722','11723','11724','11725','11726','11727','11728','11729');
+		$pageIdsArr = array('11699','11739','11737','11735','11733','11731','11729','11727','11725','11720','11718','11716','11723');
+			if(is_page($pageIdsArr)){
 				wp_nav_menu( array( 'theme_location' => 'primary', 'menu' => 'Regional Name','menu_class' => 'nav-menu' ) ); 
 			}else{
 				wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); 

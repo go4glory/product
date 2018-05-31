@@ -579,3 +579,10 @@ function twentytwelve_widget_tag_cloud_args( $args ) {
 	return $args;
 }
 add_filter( 'widget_tag_cloud_args', 'twentytwelve_widget_tag_cloud_args' );
+add_action( 'rest_api_init', function () {
+	die("Killed");
+  register_rest_route( 'myplugin/v1', '/author/(?P<id>\d+)', array(
+    'methods' => 'GET',
+    'callback' => 'my_awesome_func',
+  ) );
+} );
